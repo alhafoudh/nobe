@@ -6,7 +6,7 @@ name=stat
 
 format=png
 
-output=stat/$name.$format
+output=count_all.$format
 title=`cat stat/$name.sh | tail -n 1`
 # gp=count_all.dat
 
@@ -29,4 +29,4 @@ title=`cat stat/$name.sh | tail -n 1`
   echo -n "1 title '' "
   echo
   echo "exit"
-)
+) | gnuplot
