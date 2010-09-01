@@ -1,3 +1,4 @@
 archive/*
 stat/
 cfg/haproxy.cfg
+ec2
