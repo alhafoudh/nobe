@@ -11,7 +11,7 @@ title=`cat stat/$name.sh | tail -n 1`
 # gp=count_all.dat
 
 (
-  echo "set terminal $format size 1600, 1000"
+  echo "set terminal $format size 3000, 1000"
   echo "set output \"$output\""
   echo "set title \"$title\""
   echo "set size 1,1"

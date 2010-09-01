@@ -3,3 +3,4 @@ stat/
 cfg/haproxy.cfg
 ec2
 cfg/haproxy_ec2.cfg
+count_all.png
