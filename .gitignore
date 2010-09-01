@@ -1,0 +1,3 @@
+archive/*
+stat/
+cfg/haproxy.cfg
