@@ -11,7 +11,7 @@ http = require(old ? "http_old" : 'http');
 if (old) console.log('old version');
 
 fixed = ""
-for (var i = 0; i < 20*1024; i++) {
+for (var i = 0; i < 512*1024; i++) {
   fixed += "C";
 }
 
