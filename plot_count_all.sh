@@ -15,7 +15,7 @@ title=`cat stat/$name.sh | tail -n 1`
   echo "set output \"$output\""
   echo "set title \"$title\""
   echo "set size 1,1"
-  echo "set key left top"
+  echo "set key outside right top"
   echo "set xlabel 'sec'"
   echo "set ylabel 'requests'"
   echo -n "plot "
