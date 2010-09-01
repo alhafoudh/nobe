@@ -8,7 +8,7 @@ require "pp"
 MY_DB_NAME = "stat/stat.db"
 MY_DB = SQLite3::Database.new(MY_DB_NAME)
 
-puts "Connecting to database #{MY_DB_NAME}"
+# puts "Connecting to database #{MY_DB_NAME}"
 
 # get active record set up
 ActiveRecord::Base.establish_connection(:adapter => 'sqlite3', :database => MY_DB_NAME)

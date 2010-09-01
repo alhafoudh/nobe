@@ -21,8 +21,6 @@ ruby export_counted_data.rb > $gp
   echo "set key left top"
   echo "set xlabel 'sec'"
   echo "set ylabel 'requests'"
-  echo -n "plot "
-  echo -n "\"$gp\" using 1 with lines title 'count'"
-  echo
+  echo "plot \"$gp\" using 1 with lines title 'count'"
   echo "exit"
 ) | gnuplot
